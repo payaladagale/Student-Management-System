@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+    <link rel="stylesheet" type="text/css" href="styleee.css">
+</head>
+<body>
+    <h1>Student Management System</h1>
+    
+    <form id="student-form">
+        <input type="text" id="first-name" placeholder="First Name">
+        <input type="text" id="last-name" placeholder="Last Name">
+        <input type="text" id="email" placeholder="Email">
+        <button onclick="addStudent()">Add Student</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="student-list"></tbody>
+    </table>
+
+    <script src="scriptt.js"></script>
+</body>
+</html>
